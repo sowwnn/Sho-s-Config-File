@@ -9,12 +9,35 @@ All of thing i use is my laptop
 4. **neofetch** :smile:
 
 ### My screen shot here 👇
-![screenshot1](Screen Shot 2022-08-25 at 19.16.02.png)
-![screenshot1](Screen Shot 2022-08-25 at 19.16.15.png)
+
+![screenshot1](srcshot0.png)
+
+![screenshot1](srcshot1.png)
 
 
 ### How to use it?
+1. Open terminal and go to root
+```bash
+cd ~
+```
+2. Clone this repo:
+```bash
+git clone https://github.com/RC-Sho0/Sho-dot-file.git
+```
+3. Move all file to root
+```bash
+mv ~/Sho-dot-file/.* ~/
+mv .config .oh-my-zsh .zsh ~/
+```
 
+4. Config nvim
+```bash
+nvim +PackerSync
+```
+
+
+
+:tada: ***Now you can use that*** :tada:
 
 **If you like that, please Star my repo 🌟**
 
